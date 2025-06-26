@@ -1,0 +1,90 @@
+
+    /* General Carousel Styles */
+    .carousel {
+      position: relative;
+      background-color: #f8f9fa; /* Light gray background */
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Carousel Indicators */
+    .carousel-indicators button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #6c757d; /* Dark gray */
+      border: none;
+      margin: 0 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #0d6efd; /* Bootstrap primary color */
+    }
+    
+    /* Carousel Images */
+    .carousel-inner img {
+      height: 500px; /* Adjust height as needed */
+      object-fit: cover;
+      border-bottom: 2px solid #dee2e6; /* Light border under the image */
+    }
+    
+    /* Carousel Captions */
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    }
+    
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+    
+    /* Navigation Buttons */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 40px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+    }
+    
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    }
+    
+    /* Adjust Responsiveness */
+    @media (max-width: 768px) {
+      .carousel-inner img {
+        height: 300px;
+      }
+    
+      .carousel-caption {
+        font-size: 0.9rem;
+        padding: 5px 10px;
+      }
+    
+      .carousel-caption h5 {
+        font-size: 1.2rem;
+      }
+    
+      .carousel-caption p {
+        font-size: 0.8rem;
+      }
+    }
+    
+ 
